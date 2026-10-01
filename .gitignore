@@ -1,0 +1,37 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Ambientes virtuais
+.venv/
+venv/
+env/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Testes, type checkers e linters
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+
+# Caches
+.cache/
+
+# Arquivos temporários, logs e arquivos locais de sistema
+*.log
+*.tmp
+*.temp
+*.swp
+*.swo
+.DS_Store
+
+# Configurações e variáveis locais
+.env
+.env.*
+
+# Dados brutos, processados e resultados gerados
+data/raw/
+data/processed/
+outputs/
